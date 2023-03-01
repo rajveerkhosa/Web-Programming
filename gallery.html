@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>Photo Gallery</title>
+        <script src="./script.js"></script>
+        <link type="text/css" rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <div id="gallery">
+            <div id="thumbnails">
+                <div class="preview" onclick="showImage('cat')">
+                    <img src="thumbnails/cat_thumbnail.png">
+                    <p class="desc">My fluff is enough!</p>
+                </div>
+                <div class="preview" onclick="showImage('dog')">
+                    <img src="thumbnails/dog_thumbnail.png"> 
+                    <p class="desc">Lets be friends!</p>
+                </div>
+                <div class="preview" onclick="showImage('duck')">
+                    <img src="thumbnails/duck_thumbnail.png">
+                    <p class="desc">Quack quack quack!</p>
+                </div>
+                <div class="preview" onclick="showImage('lizzard')">
+                    <img src="thumbnails/lizzard_thumbnail.png">
+                    <p class="desc">I'm very very sneeky!</p>
+                </div>
+            </div>
+            <div id="display">
+                <img src="images/click.png" id="fullview">
+            </div>
+        </div>
+    </body>
+</html>
